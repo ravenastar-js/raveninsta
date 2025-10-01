@@ -3,7 +3,7 @@
 # 🤖 Raveninsta
 ### ✨ CLI Tool para Instagram - Mapeamento bi-direcional: ID ↔ Username
 
-<a href="https://www.npmjs.com/package/raveninsta" target="_blank"><img src="https://img.shields.io/badge/-@ravenastar/rav--ig-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/raveninsta" height="40" /></a>  
+<a href="https://www.npmjs.com/package/raveninsta" target="_blank"><img src="https://img.shields.io/badge/-raveninsta-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/raveninsta" height="40" /></a>  
  <a href="https://www.npmjs.com/package/raveninsta" target="_blank"><img alt="NPM Version" src="https://img.shields.io/npm/v/raveninsta?style=flat-square&logo=npm&labelColor=c40404&color=c40404" height="40" ></a>
 
 [![⭐ Stars](https://img.shields.io/github/stars/ravenastar-js/raveninsta?style=for-the-badge&label=%E2%AD%90%20Stars&color=2d7445&logo=star&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/raveninsta/stargazers)
