@@ -3,8 +3,8 @@
 # 🤖 Raveninsta
 ### ✨ CLI Tool para Instagram - Mapeamento bi-direcional: ID ↔ Username
 
-<a href="https://www.npmjs.com/package/@ravenastar/raveninsta" target="_blank"><img src="https://img.shields.io/badge/-@ravenastar/rav--ig-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/@ravenastar/raveninsta" height="40" /></a>  
- <a href="https://www.npmjs.com/package/@ravenastar/raveninsta" target="_blank"><img alt="NPM Version" src="https://img.shields.io/npm/v/@ravenastar/raveninsta?style=flat-square&logo=npm&labelColor=c40404&color=c40404" height="40" ></a>
+<a href="https://www.npmjs.com/package/raveninsta" target="_blank"><img src="https://img.shields.io/badge/-@ravenastar/rav--ig-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/raveninsta" height="40" /></a>  
+ <a href="https://www.npmjs.com/package/raveninsta" target="_blank"><img alt="NPM Version" src="https://img.shields.io/npm/v/raveninsta?style=flat-square&logo=npm&labelColor=c40404&color=c40404" height="40" ></a>
 
 [![⭐ Stars](https://img.shields.io/github/stars/ravenastar-js/raveninsta?style=for-the-badge&label=%E2%AD%90%20Stars&color=2d7445&logo=star&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/raveninsta/stargazers)
 [![🔱 Forks](https://img.shields.io/github/forks/ravenastar-js/raveninsta?style=for-the-badge&label=%F0%9F%94%B1%20Forks&color=2d7445&logo=git&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/raveninsta/network/members)
@@ -40,7 +40,7 @@ Ferramenta CLI para investigação de perfis do Instagram com mapeamento bidirec
 
 ```bash
 # Instalação global via npm (RECOMENDADO)
-npm install -g @ravenastar/raveninsta
+npm install -g raveninsta
 
 # Após instalação, use em qualquer lugar:
 raveninsta --help
@@ -98,7 +98,7 @@ raveninsta --version
 ## 📁 Estrutura do Projeto
 
 ```
-@ravenastar/raveninsta 📦
+raveninsta 📦
 ├── 📂 bin/
 │   └── 🔧 raveninsta.js                 # Ponto de entrada da CLI
 ├── 📂 lib/
@@ -147,7 +147,7 @@ A ferramenta identifica automaticamente o tipo de entrada:
 
 ```bash
 # 1. Instalar a ferramenta
-npm install -g @ravenastar/raveninsta
+npm install -g raveninsta
 
 # 2. Fazer login uma vez
 raveninsta login
@@ -198,7 +198,7 @@ A conversão é feita automaticamente em ambas as direções.
 <summary>📦 Qual a vantagem de instalar via npm?</summary>
 
 - ✅ **Instalação rápida** - Um comando simples
-- ✅ **Atualizações fáceis** - `npm update -g @ravenastar/raveninsta`
+- ✅ **Atualizações fáceis** - `npm update -g raveninsta`
 - ✅ **Uso global** - Funciona em qualquer diretório
 - ✅ **Gerenciamento centralizado** - Via npm
 - ✅ **Versões organizadas** - Controle de releases
@@ -235,8 +235,8 @@ raveninsta login
 
 **Erro de instalação:**
 ```bash
-npm uninstall -g @ravenastar/raveninsta
-npm install -g @ravenastar/raveninsta
+npm uninstall -g raveninsta
+npm install -g raveninsta
 ```
 
 **Login não detectado:**
@@ -252,7 +252,7 @@ npm install -g @ravenastar/raveninsta
 
 ## 🔗 Links Oficiais
 
-- **📦 [Pacote no NPM](https://www.npmjs.com/package/@ravenastar/raveninsta)**
+- **📦 [Pacote no NPM](https://www.npmjs.com/package/raveninsta)**
 - **📖 [Código Fonte](https://github.com/ravenastar-js/raveninsta)**
 
 ## ⚠️ Aviso Legal e Ético
