@@ -195,6 +195,23 @@ A conversão é feita automaticamente em ambas as direções.
 </details>
 
 <details>
+<summary>🆔 Qual e a importância dos IDs de Usuário?</summary>
+
+O **ID de usuário** em plataformas digitais é um identificador numérico único atribuído a uma conta no momento de sua criação. Diferentemente do nome de usuário, que pode ser alterado, o ID permanece constante, servindo como uma referência fixa para identificar a conta.
+
+### ✅ Benefícios de obter o ID de usuário:
+
+- **Rastreamento consistente** - Permite acompanhar contas mesmo após alterações no nome de usuário
+- **Identificação precisa** - Facilita a identificação exata em análises técnicas ou investigações
+- **Documentação confiável** - Auxilia na geração de relatórios consistentes para fins legais ou forenses
+- **Integração de dados** - Possibilita o cruzamento de informações entre diferentes sistemas ou plataformas
+- **Monitoramento eficiente** - É fundamental para o acompanhamento e análise de contas em ferramentas especializadas
+
+> 💡 **Dica profissional**: Em investigações digitais, sempre registre o ID junto com o username para garantir rastreabilidade a longo prazo.
+
+</details>
+
+<details>
 <summary>📦 Qual a vantagem de instalar via npm?</summary>
 
 - ✅ **Instalação rápida** - Um comando simples
