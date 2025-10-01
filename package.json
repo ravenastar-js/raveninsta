@@ -1,0 +1,38 @@
+{
+  "name": "raveninsta",
+  "version": "1.0.0",
+  "description": "CLI Tool para Instagram - Mapeamento bi-direcional: ID ↔ Username",
+  "main": "bin/raveninsta.js",
+  "bin": {
+    "raveninsta": "bin/raveninsta.js"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "keywords": [
+    "instagram",
+    "cli",
+    "osint",
+    "investigation",
+    "raveninsta",
+    "ravenastar"
+  ],
+  "author": "ravenastar-js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravenastar-js/raveninsta.git"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "puppeteer": "^24.10.2",
+    "axios": "^1.5.0",
+    "fs-extra": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

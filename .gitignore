@@ -1,0 +1,4 @@
+package-lock.json
+session_data.json
+session_key.bin
+node_modules/
