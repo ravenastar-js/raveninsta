@@ -183,19 +183,20 @@ jobs:
 
             - ✅ ID do perfil
             - ✅ Username atual e histórico
-            - ✅ Nome completo
+            - ✅ Display Name
             - ✅ Biografia
             - ✅ Contagem de seguidores/seguindo
             - ✅ Número de posts
             - ✅ Status de verificação
             - ✅ Status de privacidade
 
-            ### 🚫 O que NÃO é coletado
+            ### 🚫 O que a ferramenta NÃO faz?
 
-            - ❌ Mensagens privadas
-            - ❌ Dados de seguidores individuais
-            - ❌ Informações restritas
-            - ❌ Conteúdo de perfis privados
+            - ❌ Não coleta mensagens ou dados privados 
+            - ❌ Não interage com outros usuários
+            - ❌ Não realiza ações na plataforma
+            - ❌ Não burla limitações do Instagram
+            - ❌ Não acessa informações de seguidores individuais
 
             ---
 

@@ -232,8 +232,7 @@ O **ID de usuário** em plataformas digitais é um identificador numérico únic
 <details>
 <summary>🚫 O que a ferramenta NÃO faz?</summary>
 
-- ❌ Não acessa perfis privados
-- ❌ Não coleta mensagens ou dados restritos  
+- ❌ Não coleta mensagens ou dados privados  
 - ❌ Não interage com outros usuários
 - ❌ Não realiza ações na plataforma
 - ❌ Não burla limitações do Instagram
