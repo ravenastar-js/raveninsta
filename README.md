@@ -68,7 +68,9 @@ npm remove -g raveninsta     # ✅ Alternativo
 **💡 Dica:** Com a instalação global, você pode usar `raveninsta` de qualquer diretório no seu sistema.
 
 > [!IMPORTANT]
->  📄 Os arquivos de sessão (`session_data.json`, `session_key.bin`) e a pasta 📁 `perfis/` serão criados no diretório atual onde o comando for executado.
+> 📄 Os arquivos de sessão (`session_data.json`, `session_key.bin`) e a pasta 📁 `perfis/` serão criados **no diretório atual** onde o comando for executado.
+> 
+> 🔐 **Para sessões existentes:** Se você já fez login anteriormente, execute os comandos no mesmo diretório onde estão os arquivos de sessão para reutilizá-los.
 
 ## 🔑 Configuração Inicial
 
