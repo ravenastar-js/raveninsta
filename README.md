@@ -48,7 +48,7 @@ raveninsta --help
 <details>
 <summary>📥 Instalação inicial</summary>
  
-![Raveninsta](https://i.imgur.com/8J4XJie.gif)
+![Raveninsta](media/raveninsta.gif)
 </details>
 
 ## 🔍 VERIFICAR INSTALAÇÃO
