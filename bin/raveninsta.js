@@ -2,16 +2,23 @@
 
 const { program } = require('commander');
 const commands = require('../lib/commands');
+const path = require('path');
+const fs = require('fs');
 
 /**
  * 🦅 Raveninsta CLI - Ponto de entrada principal
  * @description Ferramenta para mapeamento bi-direcional Instagram ID ↔ Username
- * @version 1.0.0
  */
+
+// 📦 Carregar versão do package.json
+const packagePath = path.join(__dirname, '..', 'package.json');
+const packageJson = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
+const version = packageJson.version;
+
 program
   .name('raveninsta')
   .description('🦅 Raveninsta | Ferramenta CLI para Instagram - Mapeamento bi-direcional: ID ↔ Username')
-  .version('1.0.0')
+  .version(version, '-v, --version', 'Mostrar versão atual')
   .usage('<comando> [opções]')
   .addHelpText('before', `
 ██████╗  █████╗ ██╗   ██╗███████╗███╗   ██╗██╗███╗   ██╗███████╗████████╗ █████╗ 
@@ -29,13 +36,13 @@ Object.keys(commands).forEach(commandName => {
     const cmd = program
       .command(command.config.name)
       .description(command.config.description);
-    
+
     if (command.config.options) {
       command.config.options.forEach(option => {
         cmd.option(option.flags, option.description, option.defaultValue);
       });
     }
-    
+
     cmd.action(command.execute);
   }
 });
@@ -65,10 +72,6 @@ program.addHelpText('after', `
   $ raveninsta buscar 123456789 --no-screenshot
   $ raveninsta buscar @usuario -o ./investigacao
   $ raveninsta status
-
-📁 ESTRUTURA:
-  • Sessão: session_data.json (criptografado)
-  • Dados: perfis/[ID]/{dados.json, relatorio.txt, perfil.png}
 
 🔗 MAIS INFORMAÇÃO:
   • Execute 'raveninsta ajuda' para guia completo

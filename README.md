@@ -130,18 +130,21 @@ raveninsta 📦
 │   ├── 🌐 instagram-api.js              # Integração com API do Instagram (classe)
 │   ├── 🕷️ scraper.js                    # Coleta de dados e screenshots
 │   └── 📂 commands/                     # COMANDOS MODULARIZADOS
+│       ├── ❓ ajuda.js                  # Comando de ajuda
 │       ├── 🔍 buscar.js                 # Comando de busca de perfis
+│       ├── 🗺️ graph.js                  # Gerar mapa interativo do perfil
 │       ├── 🔐 login.js                  # Comando de autenticação
 │       ├── 📊 status.js                 # Comando de verificação de sessão (não-invasivo)
 │       ├── 🚪 sair.js                   # Comando de limpeza de sessão
-│       └── ❓ ajuda.js                  # Comando de ajuda
+│       └── 
 ├── 📦 package.json                      # Configurações e dependências do pacote
 └── 📖 README.md                         # Documentação do projeto
 
 # Estrutura gerada durante uso:
 📂 [diretório-atual]/
-├── 🔐 session_data.json                 # Sessão criptografada (gerado no login)
-├── 🔑 session_key.bin                   # Chave de criptografia (gerado no login)
+├── 📂 auth/
+│   ├── 🔐 session_data.json             # Sessão criptografada (gerado no login)
+│   └── 🔑 session_key.bin               # Chave de criptografia (gerado no login)
 └── 📂 perfis/ (ou pasta especificada)
     └── 📂 [ID]/
         ├── 🖼️ perfil.png                # Screenshot do perfil
