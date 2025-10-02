@@ -45,6 +45,11 @@ npm install -g raveninsta    # ✅ Completo
 # Após instalação, use em qualquer lugar:
 raveninsta --help
 ```
+<details>
+<summary>📥 Instalação inicial</summary>
+ 
+![Raveninsta](https://i.imgur.com/8J4XJie.gif)
+</details>
 
 ## 🔍 VERIFICAR INSTALAÇÃO
 ```bash
