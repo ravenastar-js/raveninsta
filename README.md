@@ -110,7 +110,7 @@ raveninsta 📦
 │       ├── 🔐 login.js                  # Comando de autenticação
 │       ├── 📊 status.js                 # Comando de verificação de sessão (não-invasivo)
 │       ├── 🚪 sair.js                   # Comando de limpeza de sessão
-│       └── ❓ ajuda.js                   # Comando de ajuda
+│       └── ❓ ajuda.js                  # Comando de ajuda
 ├── 📦 package.json                      # Configurações e dependências do pacote
 └── 📖 README.md                         # Documentação do projeto
 
@@ -120,7 +120,7 @@ raveninsta 📦
 ├── 🔑 session_key.bin                   # Chave de criptografia (gerado no login)
 └── 📂 perfis/ (ou pasta especificada)
     └── 📂 [ID]/
-        ├── 🖼️ perfil.png               # Screenshot do perfil
+        ├── 🖼️ perfil.png                # Screenshot do perfil
         ├── 📄 relatorio.txt             # Relatório formatado
         └── 📊 dados.json                # Dados completos em JSON (com histórico)
 ```
