@@ -39,11 +39,25 @@ Ferramenta CLI para investigação de perfis do Instagram com mapeamento bidirec
 ## 📦 Instalação Rápida
 
 ```bash
-# Instalação global via npm (RECOMENDADO)
-npm install -g raveninsta
+npm i -g raveninsta          # ✅ Recomendado
+npm install -g raveninsta    # ✅ Completo
 
 # Após instalação, use em qualquer lugar:
 raveninsta --help
+```
+
+## 🔍 VERIFICAR INSTALAÇÃO
+```bash
+npm ls -g raveninsta         # ✅ Listar pacote
+npm list -g raveninsta       # ✅ Completo
+raveninsta --version         # ✅ Versão instalada
+```
+
+## 🗑️ DESINSTALAR GLOBALMENTE
+```bash
+npm un -g raveninsta         # ✅ Recomendado  
+npm uninstall -g raveninsta  # ✅ Completo
+npm remove -g raveninsta     # ✅ Alternativo
 ```
 
 **💡 Dica:** Com a instalação global, você pode usar `raveninsta` de qualquer diretório no seu sistema.
