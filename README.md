@@ -24,7 +24,7 @@
 - **📖 [WIKI](https://github.com/ravenastar-js/raveninsta/wiki)**
 - **📖 [Sobre o projeto](https://github.com/ravenastar-js/raveninsta/wiki/SOBRE)**
 - **📦 [Instalação Rápida](https://github.com/ravenastar-js/raveninsta/wiki/SETUP)**
-- **❓ [FAQ](wiki/FAQ)**
+- **❓ [FAQ](https://github.com/ravenastar-js/raveninsta/wiki/FAQ)**
 - **📦 [Pacote NPM](https://www.npmjs.com/package/raveninsta)**
 - **💻 [Código Fonte](https://github.com/ravenastar-js/raveninsta)**
 

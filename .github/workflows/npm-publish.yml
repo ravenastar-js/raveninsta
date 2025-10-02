@@ -103,101 +103,19 @@ jobs:
           body: |
             ## 🚀 Raveninsta Publicado!
             
-            **CLI Tool para Instagram - Mapeamento bi-direcional: ID ↔ Username**
+            **✨ CLI Tool para Instagram - Mapeamento bi-direcional: Username ↔ ID**
 
             ---
-
-            ## 📦 Instalação Rápida
-
-            ```bash
-            npm install -g raveninsta
-            ```
-
-            ## 🛠️ Comandos Disponíveis
-
-            | Comando | Descrição | Exemplo |
-            |---------|-----------|---------|
-            | `raveninsta login` | Autentica no Instagram | `raveninsta login` |
-            | `raveninsta buscar <id/username>` | Busca perfil (detecção automática) | `raveninsta buscar instagram` |
-            | `raveninsta status` | Verifica status da sessão | `raveninsta status` |
-            | `raveninsta sair` | Remove dados de autenticação | `raveninsta sair` |
-
-            ## 🎯 Funcionalidades Principais
-
-            - 🔄 **Mapeamento bidirecional** - Converte ID ⇄ Username automaticamente
-            - 🔍 **Detecção inteligente** - Reconhece automaticamente o tipo de entrada
-            - 📊 **Dados públicos** - Coleta informações básicas do perfil
-            - 🖼️ **Screenshot opcional** - Captura da página do perfil
-            - 📝 **Relatórios organizados** - Exporta em TXT e JSON
-            - 🔒 **Sessão segura** - Criptografia AES-256 para dados de login
-            - 🔄 **Histórico de mudanças** - Rastreia alterações de username
-
-            ## 🔑 Configuração Inicial
-
-            ### Primeiro Uso - Login Necessário
-
-            ```bash
-            raveninsta login
-            ```
-
-            📝 **Processo de login:**
-            1. O navegador será aberto automaticamente na página de login do Instagram
-            2. **Faça o login manualmente** no navegador que abriu
-            3. Aguarde o redirecionamento para o feed principal
-            4. O navegador fechará automaticamente após o login ser detectado
-            5. Sua sessão será salva com criptografia AES-256
-
-            💡 **Dica:** Use uma conta alternativa do Instagram dedicada para a ferramenta
-
-            ### 🔒 Arquivos de Sessão
-
-            Após o login, são gerados:
-            - **session_data.json** - Cookies e dados de sessão criptografados
-            - **session_key.bin** - Chave de criptografia AES-256
-
-            **ℹ️ Importante:** Esses arquivos contêm tokens de acesso à sua conta. Mantenha-os seguros e não compartilhe com ninguém.
-
-            ## 🚀 Como Usar
-
-            ```bash
-            # Busca por username ou ID (detecção automática)
-            raveninsta buscar usuario123
-            raveninsta buscar 123456789
-
-            # Opções adicionais
-            raveninsta buscar usuario123 --no-screenshot
-            raveninsta buscar usuario123 -o ./investigacoes
-
-            # Gerenciamento de sessão
-            raveninsta status
-            raveninsta sair
-            ```
 
             ## 🔗 Links
 
-            - **[📦 npm Package](https://www.npmjs.com/package/raveninsta)**
+            - **📖 [WIKI](https://github.com/ravenastar-js/raveninsta/wiki)**
+            - **📖 [Sobre o projeto](https://github.com/ravenastar-js/raveninsta/wiki/SOBRE)**
+            - **📦 [Instalação Rápida](https://github.com/ravenastar-js/raveninsta/wiki/SETUP)**
+            - **❓ [FAQ](https://github.com/ravenastar-js/raveninsta/wiki/FAQ)**
+            - **📦 [Pacote NPM](https://www.npmjs.com/package/raveninsta)**
+            - **💻 [Código Fonte](https://github.com/ravenastar-js/raveninsta)**
             
-            ---
-
-            ### 📋 Dados Coletados (Apenas Públicos)
-
-            - ✅ ID do perfil
-            - ✅ Username atual e histórico
-            - ✅ Display Name
-            - ✅ Biografia
-            - ✅ Contagem de seguidores/seguindo
-            - ✅ Número de posts
-            - ✅ Status de verificação
-            - ✅ Status de privacidade
-
-            ### 🚫 O que a ferramenta NÃO faz?
-
-            - ❌ Não coleta mensagens ou dados privados 
-            - ❌ Não interage com outros usuários
-            - ❌ Não realiza ações na plataforma
-            - ❌ Não burla limitações do Instagram
-            - ❌ Não acessa informações de seguidores individuais
-
             ---
 
             **📅 Versão:** ${{ steps.next_version.outputs.new_version }}  
