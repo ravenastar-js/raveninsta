@@ -1,6 +1,6 @@
 {
   "name": "raveninsta",
-  "version": "1.0.0-21",
+  "version": "1.0.0-22",
   "description": "CLI Tool para Instagram - Mapeamento bi-direcional: Username ↔ ID",
   "main": "bin/raveninsta.js",
   "bin": {
